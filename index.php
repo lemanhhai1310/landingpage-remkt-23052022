@@ -2,9 +2,50 @@
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
 
+<!--Huongdan-->
+<div class="uk-section-small home__blockHuongdan uk-height-medium">
+    <div class="uk-container">
+
+    </div>
+</div>
+<!--/Huongdan-->
+
+<!--Nganhhot-->
+<div class="uk-section-small home__blockNganhhot uk-height-medium">
+    <div class="home__blockNganhhot__circleTop"></div>
+    <div class="home__blockNganhhot__circleBottom"></div>
+    <div class="uk-position-relative uk-width-1-1">
+        <div class="uk-container">
+            <div class="item__65">
+                <h2 class="uk-h2 uk-text-center home__title">Những ngành học HOT xét học bạ</h2>
+            </div>
+            <div class="item__65 uk-text-center">
+                <div class="uk-grid uk-child-width-1-3@m uk-grid-match" uk-grid>
+                    <div class="uk-width-1-2@m">
+
+                    </div>
+                    <div class="uk-width-1-2@m">
+
+                    </div>
+
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                    <div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Nganhhot-->
 
 <!--Review-->
-<div class="uk-section-xsmall home__blockReview uk-light">
+<div class="uk-section-xsmall home__blockReview uk-padding-remove-bottom uk-light">
     <div class="uk-container uk-container-small">
         <div class="item__42">
             <h2 class="uk-h2 uk-text-center home__title">Review về ĐH FPT </h2>

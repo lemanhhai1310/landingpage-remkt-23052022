@@ -17,6 +17,12 @@
       margin-top: #{$x}px;
     }
   }
+  $x:65;
+  &__#{$x}{
+    &:nth-child(n+2){
+      margin-top: #{$x}px;
+    }
+  }
   $x:60;
   &__#{$x}{
     &:nth-child(n+2){

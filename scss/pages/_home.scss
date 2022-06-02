@@ -8,6 +8,56 @@ $w1:100px;
     letter-spacing: 0.83px;
     margin: 0;
   }
+  &__blockHuongdan{
+    background-color: #{$primary-color};
+    @include media-breakpoint-up('m'){
+      padding-bottom: #{$w1};
+    }
+  }
+  &__blockNganhhot{
+    position: relative;
+    $x:790vw;
+    &__circleTop{
+      @extend .home__blockNganhhot__circle;
+      bottom: 100%;
+      &:before{
+        content: "";
+        width: #{$x};
+        height: #{$x};
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+      }
+    }
+    &__circleBottom{
+      @extend .home__blockNganhhot__circle;
+      top: 100%;
+      &:before{
+        content: "";
+        width: #{$x};
+        height: #{$x};
+        background-color: #fff;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+      }
+    }
+    &__circle{
+      position: absolute;
+      height: 60px;
+      display: flex;
+      left: 0;
+      right: 0;
+      overflow: hidden;
+    }
+  }
   &__blockReview{
     @include media-breakpoint-up('m'){
       padding-top: #{$w1};
