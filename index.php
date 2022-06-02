@@ -1,9 +1,64 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<!--Taisao-->
+<div class="uk-section uk-position-relative">
+    <div class="home__blockNganhhot__circleTop uk-visible@m"></div>
+    <div class="home__blockNganhhot__circleBottom uk-visible@m"></div>
+    <div class="uk-position-relative uk-width-1-1">
+        <div class="uk-container">
+            <div class="item__20">
+                <h2 class="uk-h2 uk-text-center home__title">Tại sao nên xét học bạ?</h2>
+            </div>
+            <div class="item__20">
+                <div class="uk-grid uk-child-width-1-4@m" uk-grid>
+                    <?php
+                    $data = array(
+                        array(
+                            'src' => 'images/taisao/1x/ts1.png',
+                            'txt1' => 'Chủ động',
+                            'txt2' => 'Chọn môn thế mạnh xét tuyển',
+                        ),
+                        array(
+                            'src' => 'images/taisao/1x/ts2.png',
+                            'txt1' => 'Tự tin',
+                            'txt2' => 'Chọn trường tốt, học ngành HOT',
+                        ),
+                        array(
+                            'src' => 'images/taisao/1x/ts3.png',
+                            'txt1' => 'Giảm áp lực',
+                            'txt2' => 'Trước thi THPT QG',
+                        ),
+                        array(
+                            'src' => 'images/taisao/1x/ts4.png',
+                            'txt1' => 'Nhân đôi cơ hội',
+                            'txt2' => 'Trúng tuyển Đại học',
+                        ),
+                    );
+                    foreach ($data as $k=>$v): ?>
+                    <div>
+                        <div class="uk-text-center">
+                            <div class="item__10">
+                                <img src="<?= $v['src'] ?>" alt="">
+                            </div>
+                            <div class="item__10">
+                                <div class="home__blockNganhhot__txt"><?= $v['txt1'] ?></div>
+                            </div>
+                            <div class="item__10">
+                                <div class="home__blockHuongdan__txt2"><?= $v['txt2'] ?></div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php endforeach; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/Taisao-->
 
 <!--Huongdan-->
-<div class="uk-section home__blockHuongdan uk-light">
+<div class="uk-section-large home__blockHuongdan uk-light">
     <div class="uk-container">
         <div class="item__52">
             <h2 class="uk-h2 uk-text-center home__title">Hướng dẫn cách xét học bạ online</h2>
@@ -162,7 +217,7 @@
 <!--/Nganhhot-->
 
 <!--Review-->
-<div class="uk-section-xsmall home__blockReview uk-padding-remove-bottom uk-light">
+<div class="uk-section-large home__blockReview uk-padding-remove-bottom uk-light">
     <div class="uk-container uk-container-small">
         <div class="item__42">
             <h2 class="uk-h2 uk-text-center home__title">Review về ĐH FPT </h2>
