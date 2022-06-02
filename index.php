@@ -3,17 +3,68 @@
 <?php require "template-parts/layouts/header.php"; ?>
 
 <!--Huongdan-->
-<div class="uk-section-small home__blockHuongdan uk-height-medium">
+<div class="uk-section home__blockHuongdan uk-light">
     <div class="uk-container">
-
+        <div class="item__52">
+            <h2 class="uk-h2 uk-text-center home__title">Hướng dẫn cách xét học bạ online</h2>
+        </div>
+        <div class="item__52">
+            <div class="uk-grid uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
+                <?php
+                $data = array(
+                    array(
+                        'src' => 'images/huongdan/1x/hd1.png',
+                        'txt1' => 'Kiểm tra điểm ',
+                        'txt2' => 'Xem xếp hạng điểm THPT tại <i>http://schoolrank.fpt.edu.vn</i>',
+                    ),
+                    array(
+                        'src' => 'images/huongdan/1x/hd2.png',
+                        'txt1' => 'Chuẩn bị hồ sơ',
+                        'txt2' => 'Chụp ảnh hoặc scan học bạ, ảnh 3x4, ảnh CMND',
+                    ),
+                    array(
+                        'src' => 'images/huongdan/1x/hd3.png',
+                        'txt1' => 'Nộp hồ sơ',
+                        'txt2' => 'Gửi hồ sơ online, nộp lệ phí',
+                    ),
+                    array(
+                        'src' => 'images/huongdan/1x/hd4.png',
+                        'txt1' => 'Nhận kết qủa',
+                        'txt2' => 'Biết kết quả sớm sau khi nộp',
+                    ),
+                );
+                foreach ($data as $k=>$v): ?>
+                    <div>
+                        <div class="uk-card uk-card-default uk-text-center">
+                            <div class="home__blockHuongdan__boximg uk-cover-container uk-background-norepeat  <?= ($k==1)?'uk-background-bottom-center':'uk-background-center-center' ?>" data-src="<?= $v['src'] ?>" uk-img>
+                                <canvas width="300" height="186"></canvas>
+                            </div>
+                            <div class="uk-card-body uk-padding-small home__blockHuongdan__box">
+                                <div class="item__10 home__blockHuongdan__boxLabel">
+                                    <span class="uk-label home__blockHuongdan__label uk-border-pill">BƯỚC <?= $k+1 ?></span>
+                                </div>
+                                <div class="item__10">
+                                    <div class="item__15">
+                                        <div class="home__blockHuongdan__txt1"><?= $v['txt1'] ?></div>
+                                    </div>
+                                    <div class="item__15">
+                                        <div class="home__blockHuongdan__txt2"><?= $v['txt2'] ?></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
+            </div>
+        </div>
     </div>
 </div>
 <!--/Huongdan-->
 
 <!--Nganhhot-->
 <div class="uk-section-small home__blockNganhhot">
-    <div class="home__blockNganhhot__circleTop"></div>
-    <div class="home__blockNganhhot__circleBottom"></div>
+    <div class="home__blockNganhhot__circleTop uk-visible@m"></div>
+    <div class="home__blockNganhhot__circleBottom uk-visible@m"></div>
     <div class="uk-position-relative uk-width-1-1">
         <div class="uk-container">
             <div class="item__65">

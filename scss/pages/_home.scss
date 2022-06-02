@@ -13,6 +13,42 @@ $w1:100px;
     @include media-breakpoint-up('m'){
       padding-bottom: #{$w1};
     }
+    &__boximg{
+      background-color: #{$secondary-color};
+    }
+    &__boxLabel{
+      margin-top: -25px;
+    }
+    &__label{
+      font-family: $font-Roboto-Black;
+      min-width: 114px;
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      @extend .fz-14;
+      color: #ffffff !important;
+      background-color: #{$primary-color} !important;
+    }
+    &__txt1{
+      color: #e98819;
+      @extend .fz-22;
+      text-transform: uppercase;
+      font-family: $font-Roboto-Black;
+    }
+    &__txt2{
+      @extend .fz-18;
+      color: #1d1d1b;
+      font-family: $font-Roboto;
+      i{
+        font-family: $font-Roboto-BoldItalic;
+      }
+    }
+    &__box{
+      padding: 10px;
+      position: relative;
+      z-index: 2;
+    }
   }
   &__blockNganhhot{
     position: relative;
