@@ -1,4 +1,32 @@
+$w1:100px;
 .home{
+  &__title{
+    text-transform: uppercase;
+    @extend .fz-33;
+    font-family: $font-Montserrat-Bold;
+    color: #{$primary-color};
+    letter-spacing: 0.83px;
+    margin: 0;
+  }
+  &__blockReview{
+    @include media-breakpoint-up('m'){
+      padding-top: #{$w1};
+    }
+    background: linear-gradient(to right, #{$primary-color}, #F07271);
+    &__card{
+
+    }
+    &__txt1{
+      @extend .fz-16;
+      color: #1d1d1b;
+      font-family: $font-Roboto-Italic;
+    }
+    &__txt2{
+      color: #1d1d1b;
+      @extend .fz-16;
+      font-family: $font-Roboto-Bold;
+    }
+  }
   &__blockDangky{
     background-color: #{$secondary-color};
     &__bgImg{
@@ -36,7 +64,7 @@
       @extend .fz-21;
       font-family: $font-Roboto-Light;
       color: #ffffff;
-      background: linear-gradient(to left top, #{$primary-color}, #F07271);;
+      background: linear-gradient(to right, #{$primary-color}, #F07271);
     }
   }
 }
