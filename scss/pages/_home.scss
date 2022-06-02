@@ -8,6 +8,35 @@ $w1:100px;
     letter-spacing: 0.83px;
     margin: 0;
   }
+  &__blockBanner{
+    min-height: 811px;
+    background-color: #{$primary-color};
+    &__title{
+      @extend .fz-45;
+      letter-spacing: 1.13px;
+      font-family: $font-Montserrat-ExtraBold;
+    }
+    &__card{
+      padding: 20px;
+    }
+    &__input{
+      color: #1d1d1b;
+      @extend .fz-18;
+      font-family: $font-Roboto;
+      background-color: #DCDCDC;
+      border-radius: 4px;
+      &::placeholder{
+        color: #1d1d1b;
+      }
+    }
+    &__btn{
+      background: #{$secondary-color};
+      border-color: #{$secondary-color};
+      color: #ffffff;
+      @extend .fz-21;
+      font-family: $font-Roboto-Light;
+    }
+  }
   &__blockHuongdan{
     background-color: #{$primary-color};
     &__boximg{
@@ -156,6 +185,10 @@ $w1:100px;
       background: #ffffff;
       .uk-icon{
         right: 6px;
+      }
+      .home__blockBanner__card &{
+        border-radius: 4px;
+        background: #DCDCDC;
       }
     }
     &__btn{

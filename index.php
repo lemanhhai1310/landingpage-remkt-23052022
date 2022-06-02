@@ -1,6 +1,64 @@
 <?php $data["title"] = "Trang chủ"; ?>
 <?php $body = '' ?>
 <?php require "template-parts/layouts/header.php"; ?>
+<div class="home__blockBanner uk-flex uk-flex-middle uk-background-norepeat uk-background-top-center uk-background-image@m" data-src="images/1x/bg2.png" uk-img>
+    <div class="uk-width-1-1 uk-section-small">
+        <div class="uk-container">
+            <div class="uk-grid" uk-grid>
+                <div class="uk-width-1-2@m">
+                    <div class="item__54">
+                        <img src="images/1x/logo.png" alt="">
+                    </div>
+                    <div class="item__54">
+                        <div class="item__34 uk-light">
+                            <div class="item__10">
+                                <h1 class="uk-h1 home__blockBanner__title">ĐH FPT hệ chính quy <br class="uk-visible@m">
+                                    tuyển sinh 2020 <br class="uk-visible@m">
+                                    bằng điểm học bạ THPT</h1>
+                            </div>
+                            <div class="item__10">
+                                <img src="images/1x/img1.png" alt="">
+                            </div>
+                        </div>
+                        <div class="item__34">
+                            <div class="home__blockBanner__card uk-card uk-card-body uk-card-default">
+                                <div class="uk-grid-small uk-grid uk-flex-center" uk-grid>
+                                    <div class="uk-width-1-2@s">
+                                        <input class="uk-input home__blockBanner__input" type="text" placeholder="Họ và tên">
+                                    </div>
+                                    <div class="uk-width-1-2@s">
+                                        <input class="uk-input home__blockBanner__input" type="text" placeholder="Email">
+                                    </div>
+                                    <div class="uk-width-1-2@s">
+                                        <input class="uk-input home__blockBanner__input" type="text" placeholder="Số điện thoại">
+                                    </div>
+                                    <div class="uk-width-1-2@s">
+                                        <div class="uk-width-1-1" uk-form-custom="target: > * > span:first-child">
+                                            <select>
+                                                <option value="">Tỉnh thành</option>
+                                                <option value="1">Option 01</option>
+                                                <option value="2">Option 02</option>
+                                                <option value="3">Option 03</option>
+                                                <option value="4">Option 04</option>
+                                            </select>
+                                            <button class="home__blockDangky__select uk-width-1-1 uk-button uk-button-default" type="button" tabindex="-1">
+                                                <span></span>
+                                                <span class="uk-position-center-right" uk-icon="icon: chevron-down"></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="uk-width-auto">
+                                        <button type="button" class="uk-button home__blockBanner__btn uk-button-default uk-border-pill"><span>ĐĂNG KÝ TƯ VẤN</span></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!--Taisao-->
 <div class="uk-section uk-position-relative">
     <div class="home__blockNganhhot__circleTop uk-visible@m"></div>
