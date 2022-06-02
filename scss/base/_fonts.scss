@@ -1,5 +1,24 @@
 /**
  * --------------------------------------------------------------------
+ * Montserrat
+ * --------------------------------------------------------------------
+ */
+@font-face{
+  font-family:'Montserrat Bold';
+  font-display: auto;
+  src:local('Montserrat Bold'), url('fonts/Fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Montserrat ExtraBold';
+  font-display: auto;
+  src:local('Montserrat ExtraBold'), url('fonts/Fonts/Montserrat-ExtraBold.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+/**
+ * --------------------------------------------------------------------
  * Arial
  * --------------------------------------------------------------------
  */
@@ -73,6 +92,13 @@
   font-family:'Roboto Light Italic';
   font-display: auto;
   src:local('Roboto Light Italic'), url('fonts/Fonts/Roboto-LightItalic.ttf') format('truetype');
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face{
+  font-family:'Roboto Light';
+  font-display: auto;
+  src:local('Roboto Light'), url('fonts/Fonts/Roboto-Light.ttf') format('truetype');
   font-weight:normal;
   font-style:normal;
 }

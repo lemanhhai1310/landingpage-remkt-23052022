@@ -1,0 +1,42 @@
+.home{
+  &__blockDangky{
+    background-color: #{$secondary-color};
+    &__bgImg{
+      $x:70px;
+      position: relative;
+      bottom: calc(0px - #{$x});
+    }
+    &__title{
+      letter-spacing: 0.55px;
+      margin: 0;
+      @extend .fz-22;
+      font-family: $font-Montserrat-ExtraBold;
+      color: #ffffff;
+    }
+    &__input{
+      color: #1d1d1b;
+      @extend .fz-18;
+      font-family: $font-Roboto;
+      &::placeholder{
+        color: #1d1d1b;
+      }
+    }
+    &__select{
+      @extend .home__blockDangky__input;
+      text-transform: inherit;
+      text-align: left;
+      padding: 0 10px;
+      position: relative;
+      background: #ffffff;
+      .uk-icon{
+        right: 6px;
+      }
+    }
+    &__btn{
+      @extend .fz-21;
+      font-family: $font-Roboto-Light;
+      color: #ffffff;
+      background: linear-gradient(to left top, #{$primary-color}, #F07271);;
+    }
+  }
+}
