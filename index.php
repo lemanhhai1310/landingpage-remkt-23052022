@@ -11,7 +11,7 @@
 <!--/Huongdan-->
 
 <!--Nganhhot-->
-<div class="uk-section-small home__blockNganhhot uk-height-medium">
+<div class="uk-section-small home__blockNganhhot">
     <div class="home__blockNganhhot__circleTop"></div>
     <div class="home__blockNganhhot__circleBottom"></div>
     <div class="uk-position-relative uk-width-1-1">
@@ -20,22 +20,88 @@
                 <h2 class="uk-h2 uk-text-center home__title">Những ngành học HOT xét học bạ</h2>
             </div>
             <div class="item__65 uk-text-center">
-                <div class="uk-grid uk-child-width-1-3@m uk-grid-match" uk-grid>
+                <div class="uk-grid uk-child-width-1-3@m" uk-grid>
                     <div class="uk-width-1-2@m">
-
+                        <div class="item__16">
+                            <div class="home__blockNganhhot__txt">NGÀNH QUẢN TRỊ KINH DOANH</div>
+                        </div>
+                        <div class="item__16">
+                            <div class="item__18 uk-text-center">
+                                <div class="home__blockNganhhot__boxImg uk-cover-container uk-border-circle uk-flex-inline" data-src="images/nganhhot/1x/qtkd.png" uk-img>
+                                    <canvas width="162" height="162"></canvas>
+                                </div>
+                            </div>
+                            <div class="item__18">
+                                <ul class="uk-list home__blockNganhhot__list">
+                                    <li>Digital Marketing</li>
+                                    <li>Kinh doanh quốc tế</li>
+                                    <li>Quản trị khách sạn</li>
+                                    <li>Quản trị dịch vụ du lịch & lữ hành</li>
+                                    <li>Quản trị truyền thông đa phương tiện</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="uk-width-1-2@m">
-
+                        <div class="item__16">
+                            <div class="home__blockNganhhot__txt">NGÀNH CÔNG NGHỆ THÔNG TIN</div>
+                        </div>
+                        <div class="item__16">
+                            <div class="item__18 uk-text-center">
+                                <div class="home__blockNganhhot__boxImg uk-cover-container uk-border-circle uk-flex-inline" data-src="images/nganhhot/1x/cntt.png" uk-img>
+                                    <canvas width="162" height="162"></canvas>
+                                </div>
+                            </div>
+                            <div class="item__18">
+                                <ul class="uk-list home__blockNganhhot__list">
+                                    <li>Kỹ thuật phần mềm</li>
+                                    <li>Hệ thống thông tin</li>
+                                    <li>Trí tuệ nhân tạo</li>
+                                    <li>An toàn thông tin</li>
+                                    <li>IoT</li>
+                                    <li>Hệ thống Ô tô và điều khiển (dự kiến)</li>
+                                    <li>Xử lý dịch vụ số (dự kiến)</li>
+                                    <li>Thiết kế Mỹ thuật số</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
 
                     <div>
-
+                        <div class="item__16">
+                            <div class="home__blockNganhhot__txt">NGÀNH NGÔN NGỮ ANH </div>
+                        </div>
+                        <div class="item__16">
+                            <div class="item__18 uk-text-center">
+                                <div class="home__blockNganhhot__boxImg uk-cover-container uk-border-circle uk-flex-inline" data-src="images/nganhhot/1x/uk.png" uk-img>
+                                    <canvas width="162" height="162"></canvas>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div>
-
+                        <div class="item__16">
+                            <div class="home__blockNganhhot__txt">NGÀNH NGÔN NGỮ NHẬT</div>
+                        </div>
+                        <div class="item__16">
+                            <div class="item__18 uk-text-center">
+                                <div class="home__blockNganhhot__boxImg uk-cover-container uk-border-circle uk-flex-inline" data-src="images/nganhhot/1x/jp.png" uk-img>
+                                    <canvas width="162" height="162"></canvas>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div>
-
+                        <div class="item__16">
+                            <div class="home__blockNganhhot__txt">NGÀNH NGÔN NGỮ HÀN QUỐC</div>
+                        </div>
+                        <div class="item__16">
+                            <div class="item__18 uk-text-center">
+                                <div class="home__blockNganhhot__boxImg uk-cover-container uk-border-circle uk-flex-inline" data-src="images/nganhhot/1x/korea.png" uk-img>
+                                    <canvas width="162" height="162"></canvas>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -63,8 +129,8 @@
                                     <li>
                                         <div class="home__blockReview__card uk-border-rounded uk-card uk-card-body uk-card-default">
                                             <div class="uk-grid uk-grid-small" uk-grid>
-                                                <div class="uk-width-auto@s">
-                                                    <div class="uk-cover-container uk-border-circle">
+                                                <div class="uk-width-auto@s uk-text-center">
+                                                    <div class="uk-cover-container uk-border-circle uk-flex-inline">
                                                         <img src="images/lemanhhai_anhthe.jpg" alt="" uk-cover="">
                                                         <canvas width="167" height="167"></canvas>
                                                     </div>

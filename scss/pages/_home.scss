@@ -57,6 +57,24 @@ $w1:100px;
       right: 0;
       overflow: hidden;
     }
+    &__list{
+      >li{
+        margin: 0 !important;
+        color: #1d1d1b;
+        @extend .fz-18;
+      }
+    }
+    &__boxImg{
+      background-color: #{$secondary-color};
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    &__txt{
+      color: #1d1d1b;
+      @extend .fz-22;
+      font-family: $font-Roboto-Black;
+      text-transform: uppercase;
+    }
   }
   &__blockReview{
     @include media-breakpoint-up('m'){
